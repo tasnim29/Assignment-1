@@ -1,0 +1,90 @@
+.fira-sans-thin {
+  font-family: "Fira Sans", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  /* background-color: #f1f1f3; */
+}
+
+/* sec1 styles */
+.sec1-container {
+  background-color: #006a504e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+  height: 530px;
+  margin: 60px 160px;
+  padding: 25px;
+  border-radius: 24px;
+}
+.sec1-container .sec1-content .sec1-subtitle {
+  font-size: 20px;
+  color: #0e0e0e47;
+  margin-bottom: 12px;
+}
+.sec1-container .sec1-content .sec1-heading {
+  font-size: 44px;
+  margin-bottom: 19px;
+}
+.sec1-container .sec1-content .sec1-button {
+  background-color: #006a50;
+  padding: 10px;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+}
+
+/* sec2 styles */
+.sec2-container {
+  margin: 60px 160px;
+  height: 530px;
+}
+.sec2-container .sec2-content .sec2-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.sec2-container .sec2-content .sec2-paragraph {
+  font-size: 12px;
+  font-weight: 400;
+  color: #0e0e0e7e;
+  margin-bottom: 32px;
+}
+.sec2-container .sec2-blocks {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.sec2-container .sec2-blocks .block1 {
+  width: 400px;
+  background-color: #548ff55a;
+  padding: 25px;
+  margin-right: 20px;
+  border-radius: 16px;
+}
+.sec2-container .sec2-blocks .block1 img {
+  margin-bottom: 10px;
+}
+.sec2-container .sec2-blocks .block1 h5 {
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #0e0e0ed0;
+}
+.sec2-container .sec2-blocks .block1 p {
+  font-size: 12px;
+  color: #0e0e0e6f;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.sec2-container .sec2-blocks .block1 button {
+  padding: 10px;
+  background-color: #548ff5a4;
+  border: none;
+  border-radius: 8px;
+}
