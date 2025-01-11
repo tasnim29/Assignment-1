@@ -40,6 +40,12 @@
   border-radius: 8px;
   cursor: pointer;
 }
+.sec1-container .sec1-content .sec1-button:hover {
+  background: linear-gradient(135deg, #50c878, #008000);
+  background-color: darkgreen;
+  border: 3px solid lightgreen;
+  color: white;
+}
 
 /* sec2 styles */
 .sec2-container {
@@ -93,6 +99,14 @@
   border-radius: 8px;
   cursor: pointer;
 }
+.sec2-container .sec2-blocks .block1 button:hover {
+  background: linear-gradient(135deg, #1e90ff, #00e5ff);
+
+  background-color: darkcyan;
+  border: 3px solid rgba(0, 0, 139, 0.321);
+  color: white;
+}
+
 /* block2 style */
 .sec2-container .sec2-blocks .block2 {
   width: 400px;
@@ -125,6 +139,13 @@
   border-radius: 8px;
   cursor: pointer;
 }
+.sec2-container .sec2-blocks .block2 button:hover {
+  background: linear-gradient(135deg, #50c878, #008000);
+  background-color: darkgreen;
+  border: 3px solid lightgreen;
+  color: white;
+}
+
 /* block3 style */
 .sec2-container .sec2-blocks .block3 {
   width: 400px;
@@ -157,6 +178,15 @@
   border-radius: 8px;
   cursor: pointer;
 }
+
+.sec2-container .sec2-blocks .block3 button:hover {
+  background: linear-gradient(135deg, #ff4b1f, #ff9068);
+
+  background-color: darkorange;
+  border: 3px solid lightcoral;
+  color: white;
+}
+
 /* sec3 styles */
 .sec3-article1 {
   width: 1200px;
@@ -215,6 +245,13 @@
   border-radius: 8px;
   cursor: pointer;
 }
+.article1-satellite .article1-infoimage button:hover {
+  background: linear-gradient(135deg, #50c878, #008000);
+  background-color: darkgreen;
+  border: 3px solid lightgreen;
+  color: white;
+}
+
 /* sec4 styles */
 .sec4-container {
   /* width: 1024px; */
@@ -252,6 +289,12 @@
   font-size: 33px;
   border: 1px solid rgba(0, 0, 0, 0.126);
 }
+.sec4-container .sec4-box .box-child1:hover {
+  background: linear-gradient(135deg, #a8e063, #56ab2f);
+  border: 2px solid #56ab2f;
+  color: #ffffff;
+}
+
 .sec4-container .sec4-box .box-child2 {
   width: 128px;
   background-color: #c6e4e0;
@@ -260,6 +303,12 @@
   font-size: 33px;
   border: 1px solid rgba(0, 0, 0, 0.126);
 }
+.sec4-container .sec4-box .box-child2:hover {
+  background: linear-gradient(135deg, #a8e063, #56ab2f);
+  border: 2px solid #56ab2f;
+  color: #ffffff;
+}
+
 .sec4-container .sec4-box .box-child3 {
   width: 128px;
   background-color: white;
@@ -268,6 +317,12 @@
   font-size: 33px;
   border: 1px solid rgba(0, 0, 0, 0.126);
 }
+.sec4-container .sec4-box .box-child3:hover {
+  background: linear-gradient(135deg, #a8e063, #56ab2f);
+  border: 2px solid #56ab2f;
+  color: #ffffff;
+}
+
 .sec4-container .sec4-box .box-child4 {
   width: 128px;
   background-color: white;
@@ -276,6 +331,12 @@
   font-size: 33px;
   border: 1px solid rgba(0, 0, 0, 0.126);
 }
+.sec4-container .sec4-box .box-child4:hover {
+  background: linear-gradient(135deg, #a8e063, #56ab2f);
+  border: 2px solid #56ab2f;
+  color: #ffffff;
+}
+
 .sec4-container .other-amount {
   width: 820px;
   background-color: white;
@@ -296,6 +357,13 @@
   border-radius: 8px;
   cursor: pointer;
 }
+.sec4-container button:hover {
+  background: linear-gradient(135deg, #50c878, #008000);
+  background-color: darkgreen;
+  border: 3px solid lightgreen;
+  color: white;
+}
+
 /* style sec5 */
 .sec5-container {
   /* width: 1024px; */
@@ -339,6 +407,12 @@
   padding-left: 40px;
   border-radius: 0px 15px 15px 0;
   cursor: pointer;
+}
+.sec5-container .sec5-form button:hover {
+  background: linear-gradient(135deg, #50c878, #008000);
+  background-color: darkgreen;
+  border: 3px solid lightgreen;
+  color: white;
 }
 
 .sec5-container .promise {
