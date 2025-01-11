@@ -17,7 +17,8 @@
   justify-content: space-between;
   align-items: center;
   /* width: 1200px; */
-  height: 530px;
+  /* height: 530px; */
+  height: 448px;
   margin: 60px 160px;
   padding: 25px;
   border-radius: 24px;
@@ -50,7 +51,8 @@
 /* sec2 styles */
 .sec2-container {
   margin: 60px 160px;
-  height: 450px;
+  height: 448px;
+  margin-bottom: -70px;
 }
 .sec2-container .sec2-content .sec2-title {
   font-size: 32px;
@@ -190,13 +192,17 @@
 /* sec3 styles */
 .sec3-article1 {
   width: 1200px;
-  height: 530px;
+  height: 448px;
   margin: 60px 160px;
+  /* margin-bottom: -90px; */
 }
 .sec3-article1 .article1-satellite {
   display: flex;
   justify-content: space-between;
   gap: 30px;
+  background-color: white;
+  border-radius: 24px;
+  padding: 38px;
 }
 .sec3-article1 .article1-content h3 {
   font-size: 32px;
@@ -252,10 +258,68 @@
   color: white;
 }
 
+.sec3-article2 {
+  width: 1200px;
+  height: 448px;
+  margin: 60px 160px;
+  margin-bottom: -100px;
+}
+.sec3-article2 .article2-satellite {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  background-color: white;
+  border-radius: 24px;
+  padding: 38px;
+}
+
+.sec3-article2 .article2-satellite .article2-image img {
+  border-radius: 24px;
+  margin-left: 38px;
+  width: 350px;
+}
+.article2-satellite .article2-infoimage h3 {
+  font-size: 26px;
+  color: #0e0e0ec3;
+  margin-bottom: 10px;
+}
+.article2-satellite .article2-infoimage .time-date {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.article2-satellite .article2-infoimage .time-date p {
+  font-size: 16px;
+  color: #0e0e0e9d;
+  font-weight: 400;
+}
+.article2-satellite .article2-infoimage p {
+  font-size: 16px;
+  color: #0e0e0e9d;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.article2-satellite .article2-infoimage button {
+  padding: 10px;
+  background-color: #006a50;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.article2-satellite .article2-infoimage button:hover {
+  background: linear-gradient(135deg, #50c878, #008000);
+  background-color: darkgreen;
+  border: 3px solid lightgreen;
+  color: white;
+}
+
 /* sec4 styles */
 .sec4-container {
   /* width: 1024px; */
-  height: 530px;
+  height: 448px;
   margin: 60px 160px;
   display: flex;
   flex-direction: column;
