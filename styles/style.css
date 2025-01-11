@@ -414,14 +414,12 @@
   border: 3px solid lightgreen;
   color: white;
 }
-
 .sec5-container .promise {
   font-size: 15px;
   font-weight: 400;
   color: #0e0e0e73;
 }
 /* sec6 styles */
-
 .sec6-container {
   position: relative;
   height: 150px;
@@ -451,4 +449,17 @@
   font-size: 15px;
   font-weight: 400;
   color: #0e0e0e7a;
+}
+/* style footer */
+.Bangladesh {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  gap: 25px;
+}
+.Bangladesh img {
+  margin-right: 10px;
 }
