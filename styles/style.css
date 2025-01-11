@@ -348,6 +348,12 @@
   font-weight: 400;
   border-bottom: 1px solid rgba(0, 0, 0, 0.126);
 }
+
+.sec4-container .other-amount input {
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
 .sec4-container button {
   padding: 10px;
   background-color: #006a50;
