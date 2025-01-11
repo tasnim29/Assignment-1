@@ -430,20 +430,11 @@
   border-radius: 16px;
   background-color: white;
   padding: 40px 32px;
-}
-
-.sec6-container::before {
-  content: "";
-  position: absolute;
-  width: 60px;
-  height: 60px;
-  top: 12px;
-  left: 25px;
   background-image: url("../assets/quote-bg.png");
-  background-size: cover;
+  background-size: 55px 55px;
+  background-position: 30px 12px;
   background-repeat: no-repeat;
 }
-
 .sec6-container .about-yunus {
   font-size: 13px;
   font-weight: 400;
